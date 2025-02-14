@@ -1,15 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+  --color-blue: #3294f8;
+  --color-title: #e7edf4;
+  --color-subtitle: #c4d4e3;
+  --color-text: #afc2d4;
+  --color-span: #7b96b2;
+  --color-label: #3a536b;
+  --color-border: #1c2f41;
+  --color-post: #112131;
+  --color-profile: #0b1b2b;
+  --color-background: #071422;
+  --color-input: #040f1a;
+  --font-nunito: "Nunito", sans-serif;
 }
