@@ -16,6 +16,7 @@ interface Repo {
   description?: string;
   html_url: string;
   public_repos: number;
+  pushed_at: string;
 }
 
 export default function Home() {
@@ -69,7 +70,7 @@ export default function Home() {
             />
           </form>
         </section>
-        <section className="flex flex-col gap-7">
+        <section className="grid grid-cols-2 flex-col gap-7">
           {filteredRepos.map((repo) => (
             <RepoList key={repo.id} repo={repo} />
           ))}

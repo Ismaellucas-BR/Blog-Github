@@ -1,8 +1,11 @@
+import { data } from "react-router";
+
 interface Repo {
   id: string;
   name: string;
   description?: string;
   html_url: string;
+  pushed_at: string;
 }
 
 interface RepoListProps {
@@ -10,12 +13,16 @@ interface RepoListProps {
 }
 
 function RepoList({ repo }: RepoListProps) {
+  const hoje = new Date();
+  const data = new Date(repo.pushed_at);
+  const diffTime = Math.abs(hoje.getTime() - data.getTime());
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   return (
     <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
       <div className="bg-post text-text rounded-lg pb-2.5 p-5">
-        <div>
+        <div className="flex justify-between">
           <h2 className="font-bold text-xl font-nunito">{repo.name}</h2>
-          <span className="font-normal text-lg font-nunito">{`Há ${repo.}`}</span>
+          <span className="font-normal text-lg font-nunito">{`Há ${diffDays} dias`}</span>
         </div>
 
         <p className="font-normal text-lg font-nunito">{repo.description}</p>
