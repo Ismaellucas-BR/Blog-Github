@@ -1,7 +1,5 @@
 # Meu Projeto React
 
-![Versão](https://img.shields.io/github/package-json/v/Ismaellucas-BR/Blog-Github)
-![Licença](https://img.shields.io/github/license/Ismaellucas-BR/Blog-Github)
 ![Último Commit](https://img.shields.io/github/last-commit/Ismaellucas-BR/Blog-Github)
 ![Tamanho do Repositório](https://img.shields.io/github/repo-size/Ismaellucas-BR/Blog-Github)
 ![Estrelas](https://img.shields.io/github/stars/Ismaellucas-BR/Blog-Github)
