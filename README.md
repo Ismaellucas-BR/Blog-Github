@@ -10,12 +10,12 @@
 Este repositório contém um aplicativo desenvolvido com as tecnologias mais recentes para criar um blog que mostra repositórios do GitHub para os usuários. O projeto é construído com React, React Router, TailwindCSS e TypeScript, proporcionando uma interface moderna e intuitiva.
 
 ## 🚀 Demonstração
-(Se possível, inclua um GIF ou imagem do projeto rodando)
-![Demo]([link-da-imagem-ou-gif](https://developerismaellucas.com/assets/githubblog.png))
+
+![Demo](https://developerismaellucas.com/assets/githubblog.png)
 
 [🔗 Acesse o projeto](https://githubblog.developerismaellucas.com/)
 
 ## 🛠️ Tecnologias utilizadas
 - React.js
 - Vit
-- Tailwin
+- Tailwind css
