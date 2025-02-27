@@ -1,4 +1,4 @@
-# Meu Projeto React
+# GitHub blog
 
 ![Último Commit](https://img.shields.io/github/last-commit/Ismaellucas-BR/Blog-Github)
 ![Tamanho do Repositório](https://img.shields.io/github/repo-size/Ismaellucas-BR/Blog-Github)
