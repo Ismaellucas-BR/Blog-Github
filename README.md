@@ -15,5 +15,5 @@ Este repositório contém um aplicativo desenvolvido com as tecnologias mais rec
 
 ## 🛠️ Tecnologias utilizadas
 - React.js
-- Vit
+- Vite
 - Tailwind css
